@@ -2,6 +2,9 @@
     display: none;
 }
 
+body{
+    background-color: #ced6e0;
+}
 body.dark{
     background-color: #333333;
     color: white;
