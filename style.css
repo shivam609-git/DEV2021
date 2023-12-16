@@ -1,13 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 .hidden{
     display: none;
 }
 
 body{
-    background-color: #ced6e0;
+    background-color: #dff9fb;
 }
 body.dark{
     background-color: #333333;
     color: white;
+    
 }
 
 header{
@@ -18,11 +23,22 @@ header{
 
 h1{
     font-size: 45pt;
+    height: 60px;
+    background-color: #7ed6df;
+}
+
+#start-btn{
+    cursor: pointer;
+}
+
+h2 label{
+    font-size: 2rem;
 }
 
 #setup-game{
     display: flex;
     justify-content: center;
+    height: 150px;
 }
 
 #setup-game > *{
@@ -35,6 +51,12 @@ h1{
 
 button{
     justify-self: center;
+    font-size: medium;
+    padding: 2px;
+}
+
+#theme-2{
+    background-color: black;
 }
 
 p#timer, p#lives{
@@ -58,6 +80,7 @@ p#timer, p#lives{
     margin-top: 5px;
     margin-bottom: 5px;
     text-align: center;
+    cursor: pointer;
 }
 
 #board{
